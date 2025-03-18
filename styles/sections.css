@@ -5,20 +5,17 @@ section header {
 
     a {
         justify-self: end;
-
-        #arrow {
-            align-items: center;
-            gap: 8px;
-        }
+        align-items: center;
+        gap: 8px;
 
         span {
+            background-image: url(../assets/arrow.svg);
             width: 16px;
             height: 16px;
-            align-items: center;
         }
 
         &:hover span {
-            background-color: var(--brand-color-dark);
+            background-image: url(../assets/arrow-hover.svg)
         }
     }
 }
